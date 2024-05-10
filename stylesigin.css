@@ -1,0 +1,22 @@
+body {
+font-size: 15pt;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: gainsboro;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 200px;
+margin-bottom: 200px;
+display: flex;
+flex-direction: column;
+flex: auto;
+text-align: center;
+justify-content: center;
+align-items: center;
+scale: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
