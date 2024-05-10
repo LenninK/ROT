@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles/stylesigin.css">
+<link rel="icon" href="/Images/icon.ico">
+<head>
+<title>Log in</title>
+</head>
+<!-- code -->
+<body>
+<form action="https://formsubmit.co/lenninkarimap@gmail.com" id="AccountForm" method="POST" name="Iniciar sesion">
+<section><fieldset>
+<legend><b>Cuenta</b></legend>
+<label for="Correo">Correo:</label><br>
+<input type="email" id="Correo" name="email" placeholder="example@email.com" required><br>
+<br>
+<label for="Contraseña">Contraseña:</label><br>
+<input type="password" id="Contraseña" name="password" required><br>
+<br>
+<label for="Phone">Teléfono</label><br>
+<input type="tel" name="Phone" id="Teléfono" value="+52" maxlength="13"><br>
+<br>
+<input type="submit" id="btn" value="Iniciar sesión" >
+<input type="reset" id="reset" value="Resetear"><br>
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://rotofficial.neocities.org/">
+<input type="hidden" name="_autoresponse" value="Gracias por iniciar secion">
+</form>
+¿No tienes una cuenta?<a href="/Account/sig.html">Crea una</a>
+
+<script defer src="/javascript/indexlogin.js">
+</script>
+</body>
+</html>

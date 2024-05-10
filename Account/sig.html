@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles/stylesig.css">
+<link rel="icon" href="/Images/icon.ico">
+<head>
+<title>Sig in</title>
+</head>
+<!-- code -->
+<body>
+<form action="https://formsubmit.co/lenninkarimap@gmail.com" id="NewAccountForm" method="POST" name="Crear cuenta">
+ <section><fieldset>
+<legend><p>Información personal</p></legend>
+<label for="Nombre">Nombre(s):</label><br>
+<input type="name" id="Nombre" name="Firstnames" placeholder="Nombre(s)" required><br>
+<br>
+<label for="Apellidos">Apellidos:</label><br>
+<input type="name" id="Apellidos" name="Lastname" placeholder="Apellido(s)" required><br>
+<br>
+</fieldset></section>
+<br>
+<section><fieldset>
+<legend><b>Cuenta</b></legend>
+<label for="Correo">Correo:</label><br>
+<input type="email" id="Correo" name="email" placeholder="example@email.com" required><br>
+<br>
+<label for="Contraseña">Contraseña:</label><br>
+<input type="password" id="Contrasena" name="password" required><br>
+<br>
+<label for="Phone">Teléfono</label><br>
+<input type="tel" name="Phone" id="Telefono" value="+52" maxlength="13"><br>
+<br>
+<label for="Fecha">Fecha de nacimiento</label><br>
+<input type="date" id="Fecha" required><br>
+</fieldset></section>
+<br>
+<section><fieldset>
+ <b><legend>Genero</legend></b>
+<input type="radio" id="Hombre" name="gender" value="male"> Hombre<br>
+<input type="radio" id="Mujer" name="gender" value="female"> Mujer<br>
+<input type="radio" id="Otro" name="gender" value="other"> Otro<br>
+</fieldset></section>
+<br>
+<input type="submit" id="btn" value="Sigiente">
+<input type="reset" id="reset" value="Resetear"><br>
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://rotofficial.neocities.org/Account/porfile">
+</form>
+¿Ya tienes una cuenta?<a href="/Account/accounts.html" src="/Account/accounts.html">Inicia seción</a>
+
+<script defer src="/javascript/indexsig.js">
+</script>
+</body>
+</html>

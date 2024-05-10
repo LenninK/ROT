@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles/styleporfile.css">
+<link rel="icon" href="/Images/icon.ico">
+<head>
+<title>New porfile</title>
+</head>
+<!-- code -->
+<body>
+<form action="https://formsubmit.co/lenninkarimap@gmail.com" id="NewPorfil" method="POST" name="Crear Perfil">
+ <section><fieldset>
+<legend><p>Información de perfil</p></legend>
+<label for="imagendeperfil">Imagen de perfil</label><br>
+<input type="file" name="porfileimage" id="imagendeperfil"><br>
+<label for="Usuario">Nombre de usuario:</label><br>
+<input type="name" id="Usuario" name="Username" placeholder="ejemplo 'juan2482'" required title="max characters: 15" maxlength="15"><br>
+<br>
+<label for="Descripción">Descripción</label><br>
+<textarea name="Description" id="Descripcion" cols="30" rows="10"></textarea>"<br>
+<br>
+</fieldset></section>
+<br>
+<input type="submit" id="btn" value="Crear cuenta">
+<input type="reset" id="reset" value="Resetear">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://rotofficial.neocities.org/">
+<input type="hidden" name="_autoresponse" value="Gracias por tu registro">
+</form>
+<input type="url" id="porfile" value="/porfile.html" >
+<script defer src="/javascript/indexporfile.js">
+</script>
+</body>
+</html>
